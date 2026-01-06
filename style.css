@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --champagne: #F7E7CE;
+    --navy: #002147;
+}
+
+body {
+    background-color: var(--champagne);
+    color: var(--navy);
+    font-family: 'Inter', sans-serif;
+}
+
+.font-serif { font-family: 'Playfair Display', serif; }
+
+/* Estilo do Acordeão */
+.accordion-content {
+    display: none;
+    overflow: hidden;
+}
+.active .accordion-content {
+    display: block;
+}
+.active .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.summary-p { margin-bottom: 1.5rem; text-align: justify; }
+
+.section-title {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(0, 33, 71, 0.2);
+}
+.section-title:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Ajustes de refinamento gráfico para o topo */
+.name-tracking { letter-spacing: -0.02em; }
+.role-tracking { letter-spacing: 0.35em; }
+.divider {
+    width: 40px;
+    height: 1px;
+    background-color: var(--navy);
+    opacity: 0.4;
+    margin: 1.5rem auto;
+}
