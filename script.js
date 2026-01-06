@@ -522,7 +522,7 @@ const translations = {
             }
         },
         section5: {
-            title: "Key Success <i>Cases</i>",
+            title: "Key Success Cases",
             case1: "• <strong>2025:</strong> Implementation of a team and projects focused on Digital Marketing at CENTER AO, which has over 45 years of tradition in Medical Acupuncture",
             case2: "• <strong>2024:</strong> Strategist responsible for the first launch with ROAS 42 at NC Instituto",
             case3: "• <strong>2023:</strong> Copywriter responsible for the first 7-figure launch of specialist Maria Julia Cardoso",
