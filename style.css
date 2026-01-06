@@ -13,14 +13,7 @@ body {
 
 .font-serif { font-family: 'Playfair Display', serif; }
 
-/* Estilo do Acordeão */
-.accordion-content {
-    display: none;
-    overflow: hidden;
-}
-.active .accordion-content {
-    display: block;
-}
+/* Estilo do Acordeão - Animação via Tailwind Grid */
 .active .fa-chevron-down {
     transform: rotate(180deg);
 }
